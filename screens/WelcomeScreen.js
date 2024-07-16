@@ -2,7 +2,6 @@ import { StyleSheet, Text, View } from 'react-native';
 import axios from 'axios';
 import { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../store/auth-context';
-import AuthContent from '../components/Auth/AuthContent';
 
 function WelcomeScreen() {
   const [fetchedMessage, setFetchedMessage] = useState('');
